@@ -1,42 +1,41 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+<Layout
+  title="Babis Danias — Technical Writer"
+  description="Technical writer specializing in API documentation and developer guides."
+  noFooter
+>
+      <main className={styles.hero}>
+        <div className={styles.container}>
+
+          <img
+            src="/img/img.jpg"
+            alt="Babis Danias"
+            className={styles.photo}
+          />
+
+          <h1 className={styles.name}>Babis Danias</h1>
+          <p className={styles.statement2}>
+            I've spent years translating poetry and editing philosophy, 
+            the kind of work where one wrong word changes everything. 
+            I document APIs the same way: exact meaning, no guessing, nothing wasted.
+          </p>
+
+          <div className={styles.buttonRow}>
+            <Link className={styles.buttonPrimary} to="/docs/intro">
+              Portfolio
+            </Link>
+            <Link className={styles.buttonSecondary} to="/about">
+              About me
+            </Link>
+          </div>
+
+        </div>
       </main>
     </Layout>
   );
