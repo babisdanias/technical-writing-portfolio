@@ -1,8 +1,15 @@
 html, body {
   margin: 0;
   padding: 0;
+  background: var(--ifm-background-color);
+  
 }
 
+[data-theme='light'] .footer__copyright {
+  color: #9AA0A6;
+  
+}
+  
 /* override the default variables. */
 :root {
   --ifm-color-primary: #3D6A87;
@@ -12,6 +19,7 @@ html, body {
   --ifm-color-primary-light: #43758F;
   --ifm-color-primary-lighter: #497E9A;
   --ifm-color-primary-lightest: #5B92AE;
+   --ifm-navbar-height: 51px;
 }
 
 
@@ -23,6 +31,7 @@ html, body {
   --ifm-color-primary-light: #8DB4CB;
   --ifm-color-primary-lighter: #96BBD0;
   --ifm-color-primary-lightest: #B3CEDD;
+   --ifm-navbar-height: 51px;
 }
 
 
@@ -65,6 +74,10 @@ html, body {
    margin: 0;
 }
 
+[data-theme='light'] .footer {
+  background: #FAFAFA;
+  border-top: 1px solid #EAEAEA;
+}
 [data-theme='dark'] {
   --ifm-background-color: #0D1114;
   --ifm-background-surface-color: #0D1114;
@@ -137,6 +150,7 @@ html, body {
 }
 }
 
+
 .pagination-nav__sublabel {
   font-size: 0.7rem;
   text-transform: uppercase;
@@ -162,4 +176,4 @@ html, body {
   margin-right: auto;
   padding-top: 3rem;
   text-wrap: pretty;
-}
+  }

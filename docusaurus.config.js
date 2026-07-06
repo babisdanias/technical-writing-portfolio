@@ -4,10 +4,10 @@ const config = {
   title: 'Babis Danias — Technical Writer',
   tagline: 'API documentation and developer guides',
   url:'https://babisdanias.com',
-  baseUrl: '/',
+ baseUrl: '/',
 
   organizationName: 'babisdanias',
-  projectName: 'my-portfolio',
+  projectName: 'technical-writing-portfolio',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
