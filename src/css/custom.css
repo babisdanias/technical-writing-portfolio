@@ -9,6 +9,14 @@ html, body {
   color: #9AA0A6;
   
 }
+
+[data-theme='dark'] body {
+  background: #0D1114;
+}
+
+[data-theme='light'] body {
+  background: #FFFFFF;
+}
   
 /* override the default variables. */
 :root {
@@ -149,7 +157,9 @@ html, body {
   
 }
 }
-
+.main-wrapper.home-wrapper {
+  background: #0D1114;
+}
 
 .pagination-nav__sublabel {
   font-size: 0.7rem;

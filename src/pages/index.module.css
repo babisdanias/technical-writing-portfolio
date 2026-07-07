@@ -6,7 +6,6 @@
   justify-content: center;
   background: #0D1114;
   padding: 18vh 1.5rem 2rem;
-  margin-bottom: -1px;
 }
 
 .container {
@@ -24,6 +23,10 @@
   object-fit: cover;
   border: 1px solid #2C332E;
   margin-bottom: 2rem;
+  image-rendering: auto;
+   backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .statement {

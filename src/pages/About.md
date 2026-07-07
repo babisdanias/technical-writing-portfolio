@@ -23,7 +23,7 @@ My three publications — two poetry translations of C.P. Cavafy and K. Karyotak
 and a philosophical anthology with an extensive critical bibliography — demand the same standard good documentation does:
 clarity the reader never has to question. That discipline carries directly into how I write technical content.
 
-You can see my literary work at [Scripta](https://author.babisdanias.com).
+You can see my literary work at [Fragments of Freedom](https://author.babisdanias.com).
 
 Based in Thessaloniki, Greece. Available to start remotely immediately;
 can relocate to Helsinki on the timeline the role requires.

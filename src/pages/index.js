@@ -9,6 +9,7 @@ export default function Home() {
   title="Babis Danias — Technical Writer"
   description="Technical writer specializing in API documentation and developer guides."
   noFooter
+  wrapperClassName="home-wrapper"
 >
       <main className={styles.hero}>
         <div className={styles.container}>
