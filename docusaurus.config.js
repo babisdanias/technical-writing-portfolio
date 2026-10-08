@@ -55,7 +55,7 @@ const config = {
           position: 'right',
         },
         {
-          href: 'mailto:BabisDanias@tutamail.com',
+          href: 'mailto:B.Danias@tutamail.com',
           label: 'Contact',
           position: 'right',
         },
