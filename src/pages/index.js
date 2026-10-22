@@ -21,12 +21,13 @@ export default function Home() {
           />
 
           <h1 className={styles.name}>Babis Danias</h1>
-          <p className={styles.statement2}>
-         I'm a technical writer with a background in IT, based in Thessaloniki and looking for work in Helsinki.
-        Since 2018 I've translated Greek poetry into English and compiled an anthology of philosophy,
-        work that comes down to weighing one word against another. 
-        I write API documentation the same way, and I run every call myself before I describe it.
-          </p>
+      <p className={styles.tagline}> Technical&nbsp;Writer · Software&nbsp;Tester · IT&nbsp;Support</p>
+<p className={styles.intro}>
+  Since 2018 I've translated Greek poetry into English and compiled an anthology of philosophy,
+  work that comes down to weighing one word against another. I bring the same care to API documentation and testing,
+  and I run every call myself before I write it up.
+</p>
+<p className={styles.meta}>Thessaloniki,&nbsp;Greece · Relocating&nbsp;to&nbsp;Helsinki · EU&nbsp;citizen</p>
 
           <div className={styles.buttonRow}>
             <Link className={styles.buttonPrimary} to="/docs/intro">
