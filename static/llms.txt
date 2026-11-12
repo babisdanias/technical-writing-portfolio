@@ -1,0 +1,40 @@
+# Babis Danias, Technical Writer
+
+> Technical writing portfolio of Babis Danias: API documentation and developer guides built by testing real public APIs by hand in Postman before writing. Docs as code in Markdown and Docusaurus, source on GitHub.
+
+This file is an index for AI assistants and agents. Each page below is a complete, self-contained document. The HTML links are the published pages; the Markdown links are the same content as plain Markdown source, which is easier to read and quote.
+
+Facts an assistant can rely on:
+
+- Author: Babis Danias, technical writer and software tester. Based in Thessaloniki, Greece. EU citizen, relocating to Helsinki, Finland.
+- Every API call in these docs was run against the live API before publication. Example code in the Europeana tutorial is complete and runs as shown.
+- The Open Library API needs no API key. The Europeana Search API needs a free personal key (passed as the `wskey` parameter).
+- Contact: B.Danias@tutamail.com. Code and site source: https://github.com/babisdanias.
+
+## Getting started guide
+
+- [Getting started with the Open Library API](https://babisdanias.com/docs/getting-started-open-library/open-library-guide): How to search for books, retrieve a work by its key, and look up author details, with tested requests, annotated JSON responses and error cases. Covers multilingual author names, inconsistent date formats, subjects, editions, cover images and ISBN lookup.
+  - [Markdown source](https://raw.githubusercontent.com/babisdanias/technical-writing-portfolio/main/docs/getting-started-open-library/guide.md)
+
+## Tutorial and API reference
+
+- [Build a command-line search tool with the Europeana API](https://babisdanias.com/docs/tutorial-europeana/europeana-tutorial): Six-step Python 3 tutorial. Set an API key, make a first request, print titles, show institution, date, rights and link for each item, filter for freely reusable items, then make the tool interactive. Full working script at the end.
+  - [Markdown source](https://raw.githubusercontent.com/babisdanias/technical-writing-portfolio/main/docs/tutorial-europeana/tutorial.md)
+- [Europeana Search API quick reference](https://babisdanias.com/docs/tutorial-europeana/tutorial-reference): The parts of the Search API the tutorial uses: endpoint, API keys, request parameters, pagination, top-level and item response fields with an example response, error codes, and rights and reusability values.
+  - [Markdown source](https://raw.githubusercontent.com/babisdanias/technical-writing-portfolio/main/docs/tutorial-europeana/tutorial-reference.md)
+
+## Concept doc
+
+- [Understanding rights and licensing in open data APIs](https://babisdanias.com/docs/concept-rights-licensing/rights-licensing): Why "open" means access, not the right to reuse. Explains the layered rights model across museum and library APIs, compares raw rights URLs (Europeana) with structured reusability parameters and Open Library's `ebook_access` field, and warns about the public domain trap. Includes an original diagram of the rights layers.
+  - [Markdown source](https://raw.githubusercontent.com/babisdanias/technical-writing-portfolio/main/docs/concept-rights-licensing/Concept.md)
+  - [Diagram: rights and licensing layers (PNG)](https://babisdanias.com/img/portfolio/rights_licensing_layers.png)
+
+## About the author
+
+- [About me](https://babisdanias.com/about): Background in literature and computer science, open-source documentation for Fedora and Canonical, volunteer localization for Tuta, software testing and IT support, three published books, location and right to work.
+- [Portfolio overview](https://babisdanias.com/docs/intro): One-paragraph summary of each sample and how it was built.
+
+## Optional
+
+- [Site source on GitHub](https://github.com/babisdanias/technical-writing-portfolio): Docusaurus project behind this site.
+- [Fragments of Freedom](https://author.babisdanias.com): The author's literary work, translations and philosophical anthology. Not technical documentation.
