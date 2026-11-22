@@ -1,6 +1,6 @@
 # Babis Danias, Technical Writer
 
-> Technical writing portfolio of Babis Danias: API documentation and developer guides built by testing real public APIs by hand in Postman before writing. Docs as code in Markdown and Docusaurus, source on GitHub.
+> Technical writing portfolio of Babis Danias: API documentation and developer guides built by testing real public APIs by hand in Postman before writing, and a case study of getting a tablet's rear camera working on Linux. Docs as code in Markdown and Docusaurus, source on GitHub.
 
 This file is an index for AI assistants and agents. Each page below is a complete, self-contained document. The HTML links are the published pages; the Markdown links are the same content as plain Markdown source, which is easier to read and quote.
 
@@ -9,7 +9,14 @@ Facts an assistant can rely on:
 - Author: Babis Danias, technical writer and software tester. Based in Thessaloniki, Greece. EU citizen, relocating to Helsinki, Finland.
 - Every API call in these docs was run against the live API before publication. Example code in the Europeana tutorial is complete and runs as shown.
 - The Open Library API needs no API key. The Europeana Search API needs a free personal key (passed as the `wskey` parameter).
+- The two Linux kernel fixes in the case study (for the `ov8856` camera sensor driver) were sent to the linux-media mailing list and are in review as of November 2026. They are not merged.
 - Contact: B.Danias@tutamail.com. Code and site source: https://github.com/babisdanias.
+
+## Case study
+
+- [Rear camera on the Dell Latitude 7320 Detachable](https://babisdanias.com/docs/case-study-linux-camera/linux-camera-case-study): How the author worked out what powers the tablet's rear camera on Linux, proved each power rail and pin with a control test, found two power bugs in the `ov8856` sensor driver and traced the cause of a third, and sent two fixes to the Linux kernel for review. Written for readers who want the story without every step, with links to the full log and the patches.
+  - [Markdown source](https://raw.githubusercontent.com/babisdanias/technical-writing-portfolio/main/docs/case-study-linux-camera/case-study.md)
+  - [Investigation log, tools and patches on GitHub](https://github.com/babisdanias/latitude-7320-rear-camera): About 90 logged steps with every command and result, the test scripts, and the patches as sent.
 
 ## Getting started guide
 

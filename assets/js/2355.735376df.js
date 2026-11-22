@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_portfolio=globalThis.webpackChunkmy_portfolio||[]).push([[2355],{2355(e,o,i){i.d(o,{createEventModelingServices:()=>l.g});var l=i(2688);i(4954)}}]);
