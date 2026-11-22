@@ -10,7 +10,6 @@ const config = {
   projectName: 'technical-writing-portfolio',
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
 
   favicon: 'img/favicon.ico',
 
@@ -18,6 +17,15 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  markdown: {
+    mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+  clientModules: [require.resolve('./src/clientModules/d3-transition.js')],
 
   presets: [
     [

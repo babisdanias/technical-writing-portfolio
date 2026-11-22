@@ -1,21 +1,32 @@
 # Technical writing portfolio
 
-Every sample here was built by testing a real API hands-on in
-Postman, documenting genuine edge cases that official documentation
-doesn't cover.
+Every sample here was built hands-on, on a real system. I tested the
+Open Library and Europeana APIs live in Postman and documented edge
+cases their official docs don't cover. The case study shows how I got
+my tablet's rear camera working on Linux.
 
 ---
 
 ## Samples
 
+### Case study
+
+[Rear camera on the Dell Latitude 7320 Detachable](./case-study-linux-camera/linux-camera-case-study)
+
+I found what powers the camera, proved each value with a control test,
+and sent two driver fixes to the kernel maintainers.
+The full investigation log and the patches are linked.
+
+
+---
+
 ### Getting started guide
 
 [Getting started with the Open Library API](./getting-started-open-library/open-library-guide)
 
-A developer orientation guide covering search, work retrieval, and
-author lookup, including how the API handles multilingual author
-names and inconsistent data formats. Documented by testing every
-endpoint live in Postman.
+A first guide for developers. It covers search, fetching works and looking up authors.
+It also shows how the API handles author names in different languages and data that comes back in mixed formats.
+Documented by testing every endpoint live in Postman.
 
 ---
 

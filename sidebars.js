@@ -3,6 +3,11 @@ const sidebars = {
     'intro',
     {
       type: 'category',
+      label: 'Case study',
+      items: ['case-study-linux-camera/linux-camera-case-study'],
+    },
+    {
+      type: 'category',
       label: 'Getting started guide',
       items: ['getting-started-open-library/open-library-guide'],
     },

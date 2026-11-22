@@ -187,3 +187,7 @@ html, body {
   padding-top: 3rem;
   text-wrap: pretty;
   }
+  /* More room above and below diagrams */
+.docusaurus-mermaid-container {
+  margin: 2.5rem 0;
+}
