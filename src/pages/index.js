@@ -6,8 +6,8 @@ import styles from './index.module.css';
 export default function Home() {
   return (
 <Layout
-  title="Babis Danias — Technical Writer"
-  description="Technical writer specializing in API documentation and developer guides."
+  title="Babis Danias — Technical Writer & Software Tester"
+  description="Technical writer and software tester: documentation, QA and software product support. EU citizen, relocating to Helsinki."
   noFooter
   wrapperClassName="home-wrapper"
 >
@@ -18,16 +18,32 @@ export default function Home() {
             src="/img/img.jpg"
             alt="Babis Danias"
             className={styles.photo}
+            style={{ marginTop: '3rem' }}
           />
 
           <h1 className={styles.name}>Babis Danias</h1>
-      <p className={styles.tagline}> Technical&nbsp;Writer · Software&nbsp;Tester · IT&nbsp;Support</p>
-<p className={styles.intro}>
-  Since 2018 I've translated Greek poetry into English and compiled an anthology of philosophy,
-  work that comes down to weighing one word against another. I bring the same care to API documentation and testing,
-  and I run every call myself before I write it up.
-</p>
-<p className={styles.meta}>Thessaloniki,&nbsp;Greece · Relocating&nbsp;to&nbsp;Helsinki · EU&nbsp;citizen</p>
+          <p
+            className={styles.tagline}
+            style={{ color: '#f2f2f2', fontWeight: 600, marginTop: '-1rem' }}
+          >
+            Technical&nbsp;Writer &amp; Software&nbsp;Tester
+          </p>
+          <p
+            className={styles.intro}
+            style={{
+              marginTop: '-0.5rem',
+              maxWidth: '35em',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+              textWrap: 'pretty',
+            }}
+          >
+            I write documentation, test software and help people when something breaks.
+            Every writing job I've done comes down to one thing: make what's written match what's true.
+            I've done it in merged Fedora and Canonical docs, in Linux kernel patches, and in my books,
+            from translating Cavafy to a philosophy anthology built&nbsp;on&nbsp;400+&nbsp;sources.
+          </p>
+          <p className={styles.meta} style={{ marginTop: '1rem' }}>Thessaloniki,&nbsp;Greece · Relocating&nbsp;to&nbsp;Helsinki · EU&nbsp;citizen</p>
 
           <div className={styles.buttonRow}>
             <Link className={styles.buttonPrimary} to="/docs/intro">

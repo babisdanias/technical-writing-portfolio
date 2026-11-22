@@ -10,10 +10,12 @@ wrapperClassName: about-page
 I come to technical work from both literature and computer science.
 Since 2018 I've written and translated books, and before that I spent years building, testing and fixing computers and software.
 
-I write API docs in Docusaurus, keep them in Git, and test every call in Postman first.
-I also test software and do hands-on IT support. I contribute to open source documentation for Fedora and Canonical,
+I write API docs in Docusaurus, keep them in Git, and test every call in Postman first. 
+I also test software and do hands-on software product support.
+My open-source documentation work is merged in Fedora and Canonical,
 and I volunteer on localization for Tuta's email app and website.
-I work with Linux and Windows, write basic Python, and read Java, JavaScript and SQL.
+I work with Linux and Windows, write basic Python, and read Java, JavaScript and SQL. 
+I traced why my tablet's rear camera didn't work through the Linux kernel source, got it working, and submitted two driver fixes to the kernel.
 
 I've published three books: translations of C. P. Cavafy, with historical commentary, and K. G. Karyotakis, with notes;
 and a philosophical anthology with a bibliography of 400+ sources.
